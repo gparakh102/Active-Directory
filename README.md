@@ -83,9 +83,8 @@ Step 3: This is the first screen, and you must click Next to proceed<br/>
 <img src="https://i.postimg.cc/VsphgHQK/15.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Step 4: Click Next until the window where you must install the AD comes up<br/>
-<img src="https://i.postimg.cc/TYb44qTf/16.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Add feat > next > next > next > install
+Step 4: Click Next until this window where you must install the AD comes up<br/>
+Now, Add features > next > next > next > install
 <img src="https://i.postimg.cc/13Zjhnz6/17.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
 <br/>
