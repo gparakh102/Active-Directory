@@ -19,7 +19,7 @@ Configuring and running this lab helped develop my understanding of how active d
 <h2>Practical lab walk-through:</h2>
 
 <p>
-Architecture Diagram : <br/>
+<h3><b>Architecture Diagram :</b></h3><br/>
 <img src="https://i.postimg.cc/hj3VsxHm/1.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -42,7 +42,7 @@ Step 4: Configure the virtual machine by giving it two network adapters: one for
 <br />
 Step 5: Install Server 2019 on the virtual machine.<br/><br/>
 
-<b>In the Client System (Win 10 VM):</b><br/><br/><br/>
+<h3><b>In the Client System (Win 10 VM):</b></h3><br/><br/><br/>
  
 Step 1: Click on the “ network & internet settings"
 <br/>
@@ -68,7 +68,7 @@ Step 5: Rename the PC to DC for convenience. Click on System<br/>
 <br />
 <br />
 
-<b>Installing AD/DS</b><br/><br/><br/>
+<h3><b>Installing AD/DS</b></h3><br/><br/><br/>
  
 Step 1: Open "Server Manager"
 <br/>
@@ -87,7 +87,7 @@ Step 4: Click Next until this window where you must install the AD comes up<br/>
 Now, Add features > next > next > next > install
 <img src="https://i.postimg.cc/13Zjhnz6/17.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <img src="https://i.postimg.cc/N0sCF3mj/18.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="https://i.postimg.cc/YSdnWdzf/19.png" height="70%" width="70%" alt="Disk Sanitization Steps"/> <br/>
+<img src="https://i.postimg.cc/YSdnWdzf/19.png" height="70%" width="70%" alt="Disk Sanitization Steps"/> <br/><br />
 Done, close
 <br/>
 <br/>
@@ -104,9 +104,8 @@ Now, mydomain/admin is visible when attempting to login
 <img src="https://i.postimg.cc/R0pdFNvg/26.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br/>
 <br/>
-
 <br/>
-<b>Creating own Admin account instead of dedicated admin account</b>
+<h3><b>Creating own Admin account instead of dedicated admin account</b></h3>
 <br/>
 <br/>
 <br/>
@@ -125,10 +124,28 @@ Step 4: Now, after this user was created, we are going to make it an administrat
 <img src="https://i.postimg.cc/g0nvy4wj/33.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br /><br />
 Ok > Apply > Ok <br />
 <img src="https://i.postimg.cc/rsLxkkfR/34.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="https://i.postimg.cc/W3ZgC3wP/35.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/W3ZgC3wP/35.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br/><br/>
 After this is done, Sign out of the account and sign in as the user just created.<br />
-<img src="https://i.postimg.cc/VvBMsVhG/36.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/VvBMsVhG/36.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+<h3><b>Installing RAS/NAT</b></h3><br/><br/><br/>
+Step 1: Open Server Manager and click on "Add Roles and Features"<br/>
+<img src="https://i.postimg.cc/tg9JXGq4/37.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Next > next > Remote access<br/>
+<img src="https://i.postimg.cc/CdyMXWrY/38.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Next > next > next > Routing > Addfeatures<br/>
+<img src="https://i.postimg.cc/g04Jjtjq/39.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Next> next > next > Install<br/>
+<img src="https://i.postimg.cc/PxR5zLmC/40.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Step 2: Click on the exclamation mark at the top and then "Routing and Remote Access"<br />
+<img src="https://i.postimg.cc/bNb1r8hx/41.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><br/><br/>
+Right-click on the server named DC (local) and Select "Configure and Enable ROuting and Remote Access"<br/>
+<img src="https://i.postimg.cc/C11KqCfy/42.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/c1PQdCV1/43.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Select "Network Address Translation (NAT) and then click Next"<br/>
+<img src="https://i.postimg.cc/zDyCmK2P/44.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/>
+<img src="https://i.postimg.cc/qq6MmkLj/45.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Next > Finish<br/><br/></br/> 
 </p>
 
 <!--
