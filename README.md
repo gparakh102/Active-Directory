@@ -160,13 +160,13 @@ Step 3: Now, as in image below, create a new scope by clicking on "IPv4"<br />
 <img src="https://i.postimg.cc/sX5gHkMz/50.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br /><br />
 Step 4: Follow the image and make the changes exactly as described in them<br/>
 <img src="https://i.postimg.cc/25b6hbmV/51.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.postimg.cc/4y5NspvF/52.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/4y5NspvF/52.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
 Explanation for 8 days as in picture: If you are in a starbucks and want to connect to the internet, an IP address is automatically leased  to you for a specified amount of time. Now the IP address cannot be leased to you for multiple days, as you will be leaving the restaurant in about an hour and will not use the internet there. If the IP is leased to you for 8 days, even if you leave the restaurant in 15 minutes, the IP address is blocked for 8 days which means no one else can be assigned that IP when you disconnect. So, usually the limit in public networks is set to a lower time period which does not cause IP addresses not being enough.<br/>
-Since we are doing a project in a test environment, we will set it for 8 days for now.<br/><br/>
+Since we are using a test environment, we will set it for 8 days for now.<br/>
 <img src="https://i.postimg.cc/02kyZHPg/53.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/>
-<img src="https://i.postimg.cc/ZKwKQF5W/54.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/ br/>
+<img src="https://i.postimg.cc/ZKwKQF5W/54.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
 Here, do not forget to Add the IP address after you've entered it. <br/>
-<img src="https://i.postimg.cc/P5NrnpC2/55.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/ br/>
+<img src="https://i.postimg.cc/P5NrnpC2/55.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
 Next > Next > Next > Finish
 
 </p>
