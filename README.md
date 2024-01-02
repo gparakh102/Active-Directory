@@ -1,7 +1,7 @@
 <h1>Basic Home Lab Running Active Directory</h1>
 
 <h2>Description</h2>
-This repository contains steps on how i set up a basic home lab running Active Directory using Oracle Virtual Box by following a tutorial by Josh Madakor
+This repository contains steps on how I set up a basic home lab running Active Directory using Oracle Virtual Box by following a tutorial by Josh Madakor
 Configuring and running this lab helped develop my understanding of how active directory and windows networking works in corporate environments, so l'd highly recommend running through it a couple times.
 <br />
 
