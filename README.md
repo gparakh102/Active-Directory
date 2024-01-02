@@ -175,11 +175,40 @@ Step 6: Now, do the same and then refresh<br/><br/><br/>
 
 <h3><b>Runing PowerShell script to create 1000 users in Active Directory.</b></h3><br/><br/><br/>
 
-Step 1: Download the <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVQwRlFpS3pidGNUdHdndGpiRDlkc2ZaQ1djZ3xBQ3Jtc0tsNXRlTkdqSDJkcl9JMzNfbGNEYWVhUnFZVExWU3Q3aUttSE92Nl8za2V1UTNwU3k4dnZ4VmN2V1hNMlQxd3l3TmtNNmhxSFFUWmRiNkpuOEM2a21UeDMtR2NIM05yVFRPTnhFOXEzTFpvb1RFNl9rMA&q=https%3A%2F%2Fgithub.com%2Fjoshmadakor1%2FAD_PS%2Farchive%2Frefs%2Fheads%2Fmaster.zip&v=MHsI8hJmggI">Script on to the virtual machine. <br/><br/>Before running the script, run the following command:<br/>
-Set-ExecutionPolicy Unrestricted
+Step 1: Open Powershell(ICE) and run it as administrator<br/><br/>
+Step 2: Download the <a href="https://github.com/gparakh102/Active-Directory/blob/main/AD_PS-master.zip"> Script </a>on to the virtual machine. <br/><br/>Before running the script, run the following command:<br/>
+Set-ExecutionPolicy Unrestricted<br/>
+<img src="https://i.postimg.cc/jjL6DLcc/57.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+O/p after ececution of script<br/>
+<img src="https://i.postimg.cc/JhNXDZJb/59.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/><br/>
 
+<h3><b>Create a new virtual machine, name it "CLIENT1", and install Windows 10 on it.</b></h3><br/><br/><br/>
+
+Make sure that the network it uses is "Internal Network"<br/>
+<img src="https://i.postimg.cc/HsRDjPQ7/61.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/>
+<img src="https://i.postimg.cc/PfVjZqmc/60.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/><br/>
+
+<h3><b>Connecting the client machine to the private network and joining it to the domain</b></h3><br/><br/><br/>
+Step 1: After setting up "CLIENT1", open command prompt in the machine and enter the command,<br/>
+ipconfig<br/>
+If eberything has been setup properly, the output is similar to the image below:<br/>
+Also, run the ping command to confirm the machine has internat access.<br/>
+<img src="https://i.postimg.cc/JnxgcpSm/62.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+The picture below explains how CLIENT1 connects to the internet.<br/>
+<img src="https://i.postimg.cc/QM25YsGJ/63.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Step 2: Rename the CLIENT1 machine as in the image.<br/>
+Don't just rename the computer description directly, click on "change" to rename it as well as add it to "mydomain"<br/>
+The system will ask for the admin account credentials, so enter them to change the name.<br/>
+<img src="https://i.postimg.cc/QxYqg2t0/64.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Step3: After all this, the system will automatically restart. After tis, login with any one of the 1000 users created previously.<br/>
+<img src="https://i.postimg.cc/7Zpd9G6s/65.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+To confirm if you have logged in with the correct user, open command prompt and run the command<br/>
+whoami<br/>
+<img src="https://i.postimg.cc/26HxHMGk/66.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><br/><br/>
+
+
+<h1>VOILA!!! You're done!!!!<h1>
 </p>
-
 <!--
  ```diff
 - text in red
