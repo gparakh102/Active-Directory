@@ -167,7 +167,16 @@ Since we are using a test environment, we will set it for 8 days for now.<br/>
 <img src="https://i.postimg.cc/ZKwKQF5W/54.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
 Here, do not forget to Add the IP address after you've entered it. <br/>
 <img src="https://i.postimg.cc/P5NrnpC2/55.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
-Next > Next > Next > Finish
+Next > Next > Next > Finish<br />
+<img src="https://i.postimg.cc/K8dzZwgj/56.png" height="60%" width="60%" alt="Disk Sanitization Steps"/><br/><br/>
+Step 5: Right click DHCP Server > Authorize
+<img src="https://i.postimg.cc/MK0NZr35/58.png" height="70%" width="70%" alt="Disk Sanitization Steps"/><br/><br/>
+Step 6: Now, do the same and then refresh<br/><br/><br/> 
+
+<h3><b>Runing PowerShell script to create 1000 users in Active Directory.</b></h3><br/><br/><br/>
+
+Step 1: Download the <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVQwRlFpS3pidGNUdHdndGpiRDlkc2ZaQ1djZ3xBQ3Jtc0tsNXRlTkdqSDJkcl9JMzNfbGNEYWVhUnFZVExWU3Q3aUttSE92Nl8za2V1UTNwU3k4dnZ4VmN2V1hNMlQxd3l3TmtNNmhxSFFUWmRiNkpuOEM2a21UeDMtR2NIM05yVFRPTnhFOXEzTFpvb1RFNl9rMA&q=https%3A%2F%2Fgithub.com%2Fjoshmadakor1%2FAD_PS%2Farchive%2Frefs%2Fheads%2Fmaster.zip&v=MHsI8hJmggI">Script on to the virtual machine. <br/><br/>Before running the script, run the following command:<br/>
+Set-ExecutionPolicy Unrestricted
 
 </p>
 
